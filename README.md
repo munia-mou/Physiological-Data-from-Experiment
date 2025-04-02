@@ -20,7 +20,7 @@ Participant_6.csv
 Participant_7.csv
 
 
-🔬 Data Collection Summary
+🔬 Data Collection Summary:
 Data was recorded using Shimmer wearable sensors and Consensys software.
 
 Participants were exposed to different emotional stimuli or performed various tasks.
@@ -31,14 +31,21 @@ Each data point is labeled with the corresponding emotional or cognitive state.
 
 🧪 Features Included in Each File
 Column Name	Description
-Shimmer_FCF4_TimestampSync_Unix_CAL	Original timestamp from the sensor in Unix time format
-time_in_minutes	Time since start of recording, in minutes
-Shimmer_FCF4_GSR_Skin_Conductance_CAL	Raw GSR signal (skin conductance)
-Shimmer_FCF4_PPG_A13_CAL	Raw PPG signal (infrared component)
-Normalized_GSR	GSR signal normalized (e.g., min-max scaled)
-Normalized_PPG	PPG signal normalized
-rmssd	Root mean square of successive differences (HRV feature)
-Event_Label	Original label describing participant's state (e.g., "Relaxed", "Stress")
+Shimmer_FCF4_TimestampSync_Unix_CAL:	Original timestamp from the sensor in Unix time format
+
+time_in_minutes:	Time since start of recording, in minutes
+
+Shimmer_FCF4_GSR_Skin_Conductance_CAL:	Raw GSR signal (skin conductance)
+
+Shimmer_FCF4_PPG_A13_CAL:	Raw PPG signal (infrared component)
+
+Normalized_GSR:	GSR signal normalized (e.g., min-max scaled)
+
+Normalized_PPG:	PPG signal normalized
+
+rmssd:	Root mean square of successive differences (HRV feature)
+
+Event_Label: 	Original label describing participant's state (e.g., "Relaxed", "Stress")
 
 The unique labels in the Event_Label columns are:
 
