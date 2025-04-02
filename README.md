@@ -42,7 +42,7 @@ Event_Label	Original label describing participant's state (e.g., "Relaxed", "Str
 
 The unique labels in the Event_Label columns are:
 
-Relaxation, CPT Test, Stroop Test, Math Test, Video 1 (Sad video), Video 2( Funny video)
+Relaxation, CPT Test, Stroop Test, Math Test, Video 1 (Sad video), Video 2( Funny video).
 For brinary stress classification, Relaxation, Video1 and Video 2 can be non stress states while the rest are stress state.
 
 
